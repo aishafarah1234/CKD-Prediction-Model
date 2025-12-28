@@ -4,6 +4,7 @@ A machine learning approach to Chronic Kidney Disease (CKD) risk prediction usin
 This project develops and evaluates machine learning models to predict Chronic Kidney Disease (CKD) risk levels using a combination of clinical patient data and drug-related toxicity features. The goal is to identify high-risk individuals early and support safer clinical decision-making when prescribing potentially nephrotoxic medications.
 
 ## Project Structure
+```text
 CKD-Prediction-Model/
 │
 ├─ CKD Prediction Model.ipynb     # Jupyter notebook with EDA, feature selection, model training, and evaluation
@@ -11,6 +12,7 @@ CKD-Prediction-Model/
 ├─ requirements.txt               # Optional pip requirements file
 ├─ data/                          # Folder containing raw and processed datasets
 ├─ xgb_ckd_top_features.pkl       # Trained XGBoost model saved for future predictions or API deployment
+```
 
 ## Dataset
 The dataset was obtained from Kaggle and contains 1,500 patient records with 37 features, including:
