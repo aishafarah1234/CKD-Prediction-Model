@@ -69,7 +69,7 @@ Performance improved across all metrics, demonstrating that:
 3. Both clinical conditions and drug-related factors play a crucial role in CKD risk
 
 ## Results Summary
-- XGBoost outperformed all models, achieving near-perfect performance across all evaluation metrics
+- XGBoost achieved the strongest performance across all evaluation metrics on this dataset and given the clean and fully observed nature of the data, results may be optimistic with external validation on real-world clinical data required before deployment
 - Tree-based models significantly outperformed Logistic Regression due to their ability to capture nonlinear relationships and feature interactions
 - Feature selection improved interpretability without sacrificing predictive performance
 
