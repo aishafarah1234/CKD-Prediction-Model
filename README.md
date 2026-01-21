@@ -68,6 +68,8 @@ Performance improved across all metrics, demonstrating that:
 2. Identified features were genuinely informative
 3. Both clinical conditions and drug-related factors play a crucial role in CKD risk
 
+In this study, some post-treatment variables were included as features for model evaluation. In future prospective applications, such variables would be predicted rather than used as inputs to avoid data leakage
+
 ## Results Summary
 - XGBoost achieved the strongest performance across all evaluation metrics on this dataset and given the clean and fully observed nature of the data, results may be optimistic with external validation on real-world clinical data required before deployment
 - Tree-based models significantly outperformed Logistic Regression due to their ability to capture nonlinear relationships and feature interactions
@@ -77,6 +79,7 @@ Performance improved across all metrics, demonstrating that:
 This model highlights the importance of:
 - Monitoring high-risk biomarkers in patients with diabetes or hypertension
 - Exercising caution when prescribing nephrotoxic drugs
+- Considering the timing of predictions, so that future outcomes (e.g., kidney function changes) can be predicted rather than used as input, preventing data leakage
 - Using data-driven tools to support early CKD risk stratification
 
-The findings support improved clinical decision-making by integrating patient health status with drug toxicity risk.
+The findings support improved clinical decision-making by integrating patient health status with drug toxicity risk, while ensuring predictions are clinically actionable and generalizable.
